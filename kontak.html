@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak Kami</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/kontak.css" />
+  </head>
+  <body>
+    <header class="contact-header">
+      <div class="contact-header__mails">
+        <div class="contact-header__mails__item">
+          <i data-feather="phone" class="icon-sm"></i>
+          <span>(62) 857 - 0107</span>
+        </div>
+        <div class="contact-header__mails__item">
+          <i data-feather="mail" class="icon-sm"></i>
+          <span>vkelloggs@gmail.com</span>
+        </div>
+      </div>
+
+      <div class="contact-header__sosials">
+        <a href="#" class="contact-header__sosials__item">
+          <i data-feather="instagram" class="icon-sm"></i>
+        </a>
+        <a href="#" class="contact-header__sosials__item">
+          <i data-feather="facebook" class="icon-sm"></i>
+        </a>
+      </div>
+    </header>
+
+    <nav class="navbar">
+      <div class="navbar_logo_wrapper">
+        <a href="#" class="navbar__logo">Vkell<span>ogg's</span></a>
+        <button id="toggle-nav" class="btn btn-secondary">
+          <i data-feather="menu" class="icon-sm"></i>
+        </button>
+      </div>
+
+      <ul class="navbar__menu">
+        <li class="navbar__menu__item">
+          <a href="/">Home</a>
+        </li>
+        <li class="navbar__menu__item">
+          <a href="/produk-kami.html">Produk Kami</a>
+        </li>
+        <li class="navbar__menu__item">
+          <a href="/resep.html">Resep</a>
+        </li>
+        <li class="navbar__menu__item">
+          <a href="/tentang.html">Tentang Kami</a>
+        </li>
+        <li class="navbar__menu__item navbar__menu__item__active">
+          <a href="/kontak.html">Kontak Kami</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="contact-container">
+      <h1 class="page-title">Kontak Kami</h1>
+      <p class="page-subtitle">
+        Kami selalu senang mendengar dari Anda! Jangan ragu untuk menghubungi
+        kami melalui halaman kontak jika Anda memiliki pertanyaan, saran, atau
+        hanya ingin berbagi pengalaman Anda dengan produk kami.
+      </p>
+    </div>
+
+    <div class="contact-container">
+      <form id="form" class="contact-form">
+        <div class="contact-form_name">
+          <div class="input-group">
+            <label for="name">Nama</label>
+            <input id="name" type="text" placeholder="Masukkan nama anda" />
+            <span class="error-message" id="name-error"></span>
+          </div>
+          <div class="input-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="Masukkan email anda" />
+            <span class="error-message" id="email-error"></span>
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label for="subject">Subjek</label>
+          <input id="subject" type="text" placeholder="Tulis subjek anda" />
+          <span class="error-message" id="subject-error"></span>
+        </div>
+
+        <div class="input-group">
+          <label for="message">Pesan</label>
+          <textarea id="message" placeholder="Tulis pesan anda"></textarea>
+          <span class="error-message" id="message-error"></span>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+
+      <div class="contact-address">
+        <div class="contact-address_item">
+          <h3>Nomor Hp</h3>
+          <p>(62) 857 - 0107</p>
+        </div>
+        <div class="contact-address_item">
+          <h3>Jam Buka</h3>
+          <p>Sen-Jum: 11:00 - 15:00 WIB Sab, Min: 11:00 - 12:00 WIB</p>
+        </div>
+        <div class="contact-address_item">
+          <h3>Lokasi</h3>
+          <p>Jati Asih, Bekasi, Indonesia</p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container">
+      <div>
+        <h1>VKellogg’s</h1>
+        <p>
+          VKellogg’s adalah perusahaan multinasional yang terkenal dengan
+          produksi makanan sarapan dan camilan.
+        </p>
+      </div>
+
+      <div>
+        <p class="footer_title">Halaman</p>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/produk-kami.html">Produk</a></li>
+          <li><a href="/resep.html">Resep</a></li>
+          <li><a href="/tentang.html">Tentang Kami</a></li>
+          <li><a href="/kontak.html">Kontak Kami</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer_title">Kontak</p>
+        <ul>
+          <li>(62) 857 - 0107</li>
+          <li>VKellogg’s</li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer_title">Galeri</p>
+        <div class="footer_gallery">
+          <div class="footer_gallery_wrapper">
+            <img src="/assets/img/galeri1.jfif" alt="" />
+          </div>
+          <div class="footer_gallery_wrapper">
+            <img src="/assets/img/galeri2.jfif" alt="" />
+          </div>
+          <div class="footer_gallery_wrapper">
+            <img src="/assets/img/galeri3.jfif" alt="" />
+          </div>
+          <div class="footer_gallery_wrapper">
+            <img src="/assets/img/galeri4.jfif" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
+    <p class="copyright">Copyright 2222</p>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/form.js"></script>
+  </body>
+</html>
